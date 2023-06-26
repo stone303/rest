@@ -1,0 +1,24 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "Testverify",
+	"description": "some information about test",
+	"type": "object",
+	"properties": {
+		"code": {
+			"description": "code of the test",
+			"type": "integer"
+		},
+		"msg": {
+			"description": "msg of test",
+			"type": "Sting"
+		}
+		"data": {
+			"description": "data of test",
+			"type": "object"
+		}
+		
+	},
+	"required": [
+		"data"
+	]
+}
